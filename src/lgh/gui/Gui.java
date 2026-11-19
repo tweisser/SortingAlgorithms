@@ -15,8 +15,7 @@ public class Gui extends JFrame {
         JPanel sideScreen = new SideScreen();
 
         setUndecorated(false); 
-        //this.WIDTH = Toolkit.getDefaultToolkit().getScreenSize().getWidth(); 
-        //this.HEIGHT = Toolkit.getDefaultToolkit().getScreenSize().getWidth(); 
+        setSize(800, 450);
         setLayout(new BorderLayout()); 
         add(mainScreen, BorderLayout.CENTER); 
         add(sideScreen, BorderLayout.WEST);
