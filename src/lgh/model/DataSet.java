@@ -8,6 +8,7 @@ public class DataSet {
     private int length = 10;
     private String name;
 
+    public DataSet(){}; 
     public DataSet(int[] data, String name) {
         if (data != null) {
             this.data = data;
@@ -35,4 +36,5 @@ public class DataSet {
     public int getLength(){
         return length;
     }
+
 }

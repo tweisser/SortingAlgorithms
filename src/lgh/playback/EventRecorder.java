@@ -12,5 +12,8 @@ public class EventRecorder {
     events.add(event);
   }
 
+  public SortEvent get(int position){
+    return events.get(position); 
+  }
 
 }
